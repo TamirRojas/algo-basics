@@ -64,3 +64,27 @@ export function isMultipleOf3OrDivisibleBy7(n) {
 export function closestTo100(x, y) {
     
 }
+<<<<<<< HEAD
+=======
+
+/**
+ * Write a function that returns the categorize of the provided word
+ * 
+ * Those words and categorizes can be : 
+ * raspberry, orange, apple, banana => FRUIT
+ * paris, london, new-york, berlin => CITY
+ * cat, dog, bird, horse, fish => ANIMAL
+ * 
+ * if a word is unknown, "UNKNOWN" should be returned
+ */
+export function categorizeWord(word) {
+    if ( word === "raspberry" || word === "orange" || word === "apple" || word === "banana" ){
+    return "FRUIT"
+    }else if ( word === "paris" || word === "london" || word === "new-york" || word === "berlin" ){
+    return "CITY"
+    }else if ( word === "cat" || word === "dog" || word === "bird" || word === "horse" || word === "fish"){
+    return "ANIMAL"
+    }else (word === "UNKNOWN")
+    return "UNKNOWN"
+}
+>>>>>>> 5bda5bf (Friday update 16:46 pm)
