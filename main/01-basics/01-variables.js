@@ -51,5 +51,5 @@ export function xnor(a, b) {
  * "quotient = 7, remainder = 3"
  */
 export function divide(a, b) {
-    
+    return "quotient = " + Math.floor (a / b) + ", remainder = " + (a % b) 
 }
