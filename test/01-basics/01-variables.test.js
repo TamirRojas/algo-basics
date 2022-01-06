@@ -1,7 +1,7 @@
 import { celciusToFahrenheit, helloWorld, isGreaterThan8, sum, xor, xnor, divide } from '../../main/01-basics/01-variables.js'
 
 test('should return "Hello, world!"', () => {
-    expect(helloWorld()).toEqual('Hello, >orld!')
+    expect(helloWorld()).toEqual('Hello, World!')
 })
 
 describe('should apply sum of two numbers', () => {

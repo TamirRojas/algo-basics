@@ -1,13 +1,13 @@
 /** First function : it must return "Hello, World!" */
 export function helloWorld() {
-    
+    return "Hello, World!"
 }
 
 /** 
  * Write a function that returns the sum of the two numbers passed as arguments.
  */
 export function sum(a, b) {
-    
+    return a+b
 }
 
 /**
@@ -18,7 +18,8 @@ export function sum(a, b) {
  * @returns the temperature converted to Fahrenheit
  */
 export function celciusToFahrenheit(celciusTemperature) {
-    
+    let F =  celciusTemperature* 9/5 + 32 ;
+    return F;
 }
 
 /**
@@ -27,7 +28,11 @@ export function celciusToFahrenheit(celciusTemperature) {
  * string.length() to get the length of a string.
  */
 export function isGreaterThan8(word) {
-    
+    if (word.length > 8) { 
+        return true;
+    }
+    else {
+        return false;}
 }
 
 /**

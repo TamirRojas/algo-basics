@@ -36,19 +36,32 @@ export function sumOrTriple(a, b) {
 }
 
 /**
- * Write a function to get the absolute difference between n and 51. If n is greater than 51 return triple the absolute difference
+ * Write a function to get the absolute difference between n and 51. 
+ * If n is greater than 51 return triple the absolute difference
  * 
  * To get the absolute difference of a number, use Math.abs(number)
  */
 export function absoluteDiff(n) {
-    
+    let DiffAbs = Math.abs(n-51);
+    if (n<=51) {
+        return DiffAbs
+    }
+    else {
+        return DiffAbs * 3
+    }
 }
 
 /**
- * Write a function to check two given integers, and return true if one of them is 30 or if their sum is 30
+ * Write a function to check two given integers, and return true 
+ * if one of them is 30 or if their sum is 30
  */
 export function is30OrSumIs30(a, b) {
-    
+    if ((a === 30 || b === 30 || a+b === 30)) {
+    return true
+    }
+    else {
+    return false
+    }
 }
 
 /**
@@ -64,8 +77,6 @@ export function isMultipleOf3OrDivisibleBy7(n) {
 export function closestTo100(x, y) {
     
 }
-<<<<<<< HEAD
-=======
 
 /**
  * Write a function that returns the categorize of the provided word
@@ -87,4 +98,4 @@ export function categorizeWord(word) {
     }else (word === "UNKNOWN")
     return "UNKNOWN"
 }
->>>>>>> 5bda5bf (Friday update 16:46 pm)
+
