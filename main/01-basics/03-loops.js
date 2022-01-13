@@ -1,12 +1,14 @@
 /**
- * Write a function that returns the index of the first occurence of an element in the provided array
+ * Write a function that returns the index of the 
+ * first occurence of an element in the provided array
  */
 export function find(array, element) {
-    
+    return array.indexOf(element)
 }
 
 /**
- * Write a function to check which number nearest to the value 100 among two given integers. Return 0 if the two numbers are equal
+ * Write a function to check which number nearest to the 
+ * value 100 among two given integers. Return 0 if the two numbers are equal
  */
  export function closestTo100AmongArray(numbers) {
      
